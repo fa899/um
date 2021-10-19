@@ -121,7 +121,7 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(22, 29, 31)
     },
     ProtoSmasher = {
-        SchemeColor = Color3.fromRGB(37, 71, 110),
+        SchemeColor = Color3.fromRGB(41, 74, 122),
         Background = Color3.fromRGB(25, 25, 25),
         Header = Color3.fromRGB(22, 29, 31),
         TextColor = Color3.fromRGB(255,255,255),
