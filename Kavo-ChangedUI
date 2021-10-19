@@ -114,16 +114,9 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(24, 24, 24)
     },
     Serpent = {
-        SchemeColor = Color3.fromRGB(0, 166, 58),
-        Background = Color3.fromRGB(31, 41, 43),
-        Header = Color3.fromRGB(22, 29, 31),
-        TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(22, 29, 31)
-    },
-    ProtoSmasher = {
         SchemeColor = Color3.fromRGB(41, 74, 122),
         Background = Color3.fromRGB(25, 25, 25),
-        Header = Color3.fromRGB(22, 29, 31),
+        Header = Color3.fromRGB(25, 25, 25),
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(22, 29, 31)
     }
@@ -177,8 +170,6 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.Synapse
     elseif themeList == "Serpent" then
         themeList = themeStyles.Serpent
-    elseif themeList == "ProtoSmasher" then
-        themeList = ThemeStyles.ProtoSmasher
     else
         if themeList.SchemeColor == nil then
             themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
